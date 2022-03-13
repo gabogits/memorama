@@ -1,0 +1,669 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <Game /> Debe de reiniciarte el juego con los valores por defecto 1`] = `
+<main>
+  <header>
+    <div
+      className=" container container-header"
+    >
+      <div
+        className="logo"
+      >
+        <figure>
+          <a
+            onClick={[Function]}
+          >
+            <span
+              className="logo-desk"
+            >
+              MEMORAMA
+            </span>
+            <span
+              className="logo-mobile"
+            >
+              M
+            </span>
+             
+          </a>
+        </figure>
+      </div>
+      <nav>
+        <div
+          className="nav-left"
+        />
+        <div
+          className="nav-right"
+        >
+          <div
+            className="nav-list"
+          >
+            <ul>
+              <li>
+                <button
+                  onClick={[Function]}
+                >
+                  Inicio
+                </button>
+              </li>
+              <li>
+                <a
+                  aria-current={null}
+                  onClick={[Function]}
+                >
+                  Tema
+                </a>
+              </li>
+              <li>
+                <a
+                  aria-current={null}
+                  onClick={[Function]}
+                >
+                  Juego
+                </a>
+              </li>
+              <li>
+                <a
+                  aria-current={null}
+                  onClick={[Function]}
+                >
+                  Ranking
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div
+    className="header-game"
+  >
+    <div
+      className="header-game-container"
+    >
+      <div
+        className="header-gamedata"
+      >
+        <div
+          className="header-gamedata-item"
+          key="1"
+        >
+          <div
+            className="header-gamedata-avatar active"
+          >
+            <img
+              alt="avatar"
+              src="witch.png"
+            />
+          </div>
+          <div
+            className="header-gamedata-data"
+          >
+            juan
+            <br />
+            <strong>
+               
+              0
+            </strong>
+          </div>
+        </div>
+        <div
+          className="header-gamedata-item"
+          key="2"
+        >
+          <div
+            className="header-gamedata-avatar "
+          >
+            <img
+              alt="avatar"
+              src="dracula.png"
+            />
+          </div>
+          <div
+            className="header-gamedata-data"
+          >
+            bety
+            <br />
+            <strong>
+               
+              0
+            </strong>
+          </div>
+        </div>
+      </div>
+      <div
+        className="timer-buttons"
+      >
+        <div
+          className="timer-container"
+        >
+          <div
+            className="timer"
+          >
+            <p>
+              00:00:00
+            </p>
+          </div>
+        </div>
+        <div
+          className="container-icon-menu"
+        >
+          <button
+            className="btn-icon-2 icon-repeat"
+            onClick={[Function]}
+            type="submit"
+            value="enviar"
+          />
+          <button
+            className="btn-icon-2 icon-endGame"
+            onClick={[Function]}
+            type="submit"
+            value="enviar"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="cards-board"
+  >
+    <div
+      className="cards-list"
+    >
+      <div
+        className="flip-card  "
+        onClick={[Function]}
+      >
+        <div
+          className="flip-card-inner"
+        >
+          <div
+            className="flip-card-front"
+          />
+          <div
+            className="flip-card-back "
+          >
+            <img
+              alt="Avatar"
+              src="idontknow.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="flip-card  "
+        onClick={[Function]}
+      >
+        <div
+          className="flip-card-inner"
+        >
+          <div
+            className="flip-card-front"
+          />
+          <div
+            className="flip-card-back "
+          >
+            <img
+              alt="Avatar"
+              src="idontknow.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="flip-card  "
+        onClick={[Function]}
+      >
+        <div
+          className="flip-card-inner"
+        >
+          <div
+            className="flip-card-front"
+          />
+          <div
+            className="flip-card-back "
+          >
+            <img
+              alt="Avatar"
+              src="idontknow.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="flip-card  "
+        onClick={[Function]}
+      >
+        <div
+          className="flip-card-inner"
+        >
+          <div
+            className="flip-card-front"
+          />
+          <div
+            className="flip-card-back "
+          >
+            <img
+              alt="Avatar"
+              src="idontknow.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="flip-card  "
+        onClick={[Function]}
+      >
+        <div
+          className="flip-card-inner"
+        >
+          <div
+            className="flip-card-front"
+          />
+          <div
+            className="flip-card-back "
+          >
+            <img
+              alt="Avatar"
+              src="idontknow.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="flip-card  "
+        onClick={[Function]}
+      >
+        <div
+          className="flip-card-inner"
+        >
+          <div
+            className="flip-card-front"
+          />
+          <div
+            className="flip-card-back "
+          >
+            <img
+              alt="Avatar"
+              src="idontknow.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="flip-card  "
+        onClick={[Function]}
+      >
+        <div
+          className="flip-card-inner"
+        >
+          <div
+            className="flip-card-front"
+          />
+          <div
+            className="flip-card-back "
+          >
+            <img
+              alt="Avatar"
+              src="idontknow.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="flip-card  "
+        onClick={[Function]}
+      >
+        <div
+          className="flip-card-inner"
+        >
+          <div
+            className="flip-card-front"
+          />
+          <div
+            className="flip-card-back "
+          >
+            <img
+              alt="Avatar"
+              src="idontknow.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="flip-card  "
+        onClick={[Function]}
+      >
+        <div
+          className="flip-card-inner"
+        >
+          <div
+            className="flip-card-front"
+          />
+          <div
+            className="flip-card-back "
+          >
+            <img
+              alt="Avatar"
+              src="idontknow.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="flip-card  "
+        onClick={[Function]}
+      >
+        <div
+          className="flip-card-inner"
+        >
+          <div
+            className="flip-card-front"
+          />
+          <div
+            className="flip-card-back "
+          >
+            <img
+              alt="Avatar"
+              src="idontknow.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="flip-card  "
+        onClick={[Function]}
+      >
+        <div
+          className="flip-card-inner"
+        >
+          <div
+            className="flip-card-front"
+          />
+          <div
+            className="flip-card-back "
+          >
+            <img
+              alt="Avatar"
+              src="idontknow.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="flip-card  "
+        onClick={[Function]}
+      >
+        <div
+          className="flip-card-inner"
+        >
+          <div
+            className="flip-card-front"
+          />
+          <div
+            className="flip-card-back "
+          >
+            <img
+              alt="Avatar"
+              src="idontknow.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="flip-card  "
+        onClick={[Function]}
+      >
+        <div
+          className="flip-card-inner"
+        >
+          <div
+            className="flip-card-front"
+          />
+          <div
+            className="flip-card-back "
+          >
+            <img
+              alt="Avatar"
+              src="idontknow.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="flip-card  "
+        onClick={[Function]}
+      >
+        <div
+          className="flip-card-inner"
+        >
+          <div
+            className="flip-card-front"
+          />
+          <div
+            className="flip-card-back "
+          >
+            <img
+              alt="Avatar"
+              src="idontknow.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="flip-card  "
+        onClick={[Function]}
+      >
+        <div
+          className="flip-card-inner"
+        >
+          <div
+            className="flip-card-front"
+          />
+          <div
+            className="flip-card-back "
+          >
+            <img
+              alt="Avatar"
+              src="idontknow.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="flip-card  "
+        onClick={[Function]}
+      >
+        <div
+          className="flip-card-inner"
+        >
+          <div
+            className="flip-card-front"
+          />
+          <div
+            className="flip-card-back "
+          >
+            <img
+              alt="Avatar"
+              src="idontknow.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="flip-card  "
+        onClick={[Function]}
+      >
+        <div
+          className="flip-card-inner"
+        >
+          <div
+            className="flip-card-front"
+          />
+          <div
+            className="flip-card-back "
+          >
+            <img
+              alt="Avatar"
+              src="idontknow.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="flip-card  "
+        onClick={[Function]}
+      >
+        <div
+          className="flip-card-inner"
+        >
+          <div
+            className="flip-card-front"
+          />
+          <div
+            className="flip-card-back "
+          >
+            <img
+              alt="Avatar"
+              src="idontknow.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="flip-card  "
+        onClick={[Function]}
+      >
+        <div
+          className="flip-card-inner"
+        >
+          <div
+            className="flip-card-front"
+          />
+          <div
+            className="flip-card-back "
+          >
+            <img
+              alt="Avatar"
+              src="idontknow.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="flip-card  "
+        onClick={[Function]}
+      >
+        <div
+          className="flip-card-inner"
+        >
+          <div
+            className="flip-card-front"
+          />
+          <div
+            className="flip-card-back "
+          >
+            <img
+              alt="Avatar"
+              src="idontknow.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  Array [
+    <div
+      className="modal-box medium-size "
+    >
+      <div
+        className="head-modal"
+      >
+        <h2>
+          Score final
+        </h2>
+      </div>
+      <div
+        className="modal-box-inner"
+      >
+        <div
+          className="header-gamedata center-jus"
+        >
+          <div
+            className="header-gamedata-item"
+            key="1"
+          >
+            <div
+              className="header-gamedata-avatar"
+            >
+              <img
+                alt="avatar"
+                src="witch.png"
+              />
+            </div>
+            <div
+              className="header-gamedata-data"
+            >
+              <span>
+                 
+                juan
+              </span>
+               
+              <br />
+              <strong
+                className="score-modal "
+              >
+                 
+                0
+              </strong>
+            </div>
+          </div>
+          <div
+            className="header-gamedata-item"
+            key="2"
+          >
+            <div
+              className="header-gamedata-avatar"
+            >
+              <img
+                alt="avatar"
+                src="dracula.png"
+              />
+            </div>
+            <div
+              className="header-gamedata-data"
+            >
+              <span>
+                 
+                bety
+              </span>
+               
+              <br />
+              <strong
+                className="score-modal "
+              >
+                 
+                0
+              </strong>
+            </div>
+          </div>
+        </div>
+        <div
+          className="btns-block4"
+        >
+          <button
+            className="btn-primary btn-color-1 btn-size-2 btn-orientation-auto "
+            onClick={[Function]}
+            type="button"
+          >
+            Cerrar
+          </button>
+        </div>
+      </div>
+    </div>,
+    <div
+      className="screen  "
+    />,
+  ]
+</main>
+`;

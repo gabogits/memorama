@@ -1,0 +1,180 @@
+input[type=file], /* FF, IE7+, chrome (except button) */
+input[type=file]::-webkit-file-upload-button {
+  /* chromes and blink button */
+  cursor: pointer;
+}
+
+.field {
+  overflow: hidden;
+  margin: 0 0 20px;
+}
+
+.field:last-of-type {
+  margin: 0 0 0px;
+}
+.field label {
+  display: block;
+  margin: 0 0 15px;
+  font-size: 15px;
+  color: #838383;
+  font-weight: 500;
+}
+.field input {
+  width: 100%;
+  box-shadow: none;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+  outline: none;
+  padding: 7px 20px;
+  font-size: 16px;
+  color: #19110b;
+  height: 46px;
+  font-family: "Mulish", sans-serif;
+  background: #f1f5ff;
+  border-radius: 12px;
+}
+
+.field input::-webkit-input-placeholder,
+.field input::-moz-placeholder,
+.field input:-ms-input-placeholder,
+.field input:-moz-placeholder {
+  color: rgb(51, 55, 64);
+}
+
+.btn-size-2 {
+  width: 230px;
+}
+
+.btn-orientation-auto {
+  margin: 0 auto;
+  display: block;
+}
+
+.btns-block {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 40px;
+}
+
+.btns-block4 {
+  justify-content: space-between;
+  display: flex;
+
+  margin: 20px 0 0;
+}
+
+.btn-primary {
+  color: #fff;
+  font-size: 15px;
+  height: 45px;
+  display: block;
+  cursor: pointer;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 9px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+}
+.section-format-actions {
+  margin: 40px 0 0;
+}
+
+.btn-color-1 {
+  border: solid 1px #a1a1a1;
+  background-color: transparent;
+  color: #a1a1a1;
+}
+.btn-color-2 {
+  border: solid 1px #ba0c5c;
+  background-color: transparent;
+  color: #ba0c5c;
+}
+.btn-color-3 {
+  background: #a5a29f;
+}
+.btn-color-4 {
+  background: #e3045e;
+  color: #fff;
+  box-shadow: 0px 2px 7px 0px #ffa6ca;
+}
+.btn-color-5 {
+  background: #19110b;
+  color: #fff;
+}
+
+.select-simple {
+  width: 100%;
+}
+
+.select-simple .select-simple__container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #f1f5ff;
+}
+
+.select-simple .select-simple__container:after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: block;
+  width: 30px;
+  height: 20px;
+  background-size: 10px;
+  pointer-events: none;
+  background: url("../images/down-chevron.svg") no-repeat center;
+  background-size: 15px;
+}
+
+.select-simple select {
+  height: 46px;
+  /* font-size: 18px; */
+  color: rgb(51, 55, 64);
+  padding: 0 20px;
+  width: 120%;
+  font-family: "Mulish", sans-serif;
+
+  font-size: 16px;
+  background: none;
+}
+.buttons-row {
+  display: flex;
+  justify-content: space-between;
+}
+.buttons-row button {
+  margin: 0;
+}
+.input-combo-icon {
+  position: relative;
+}
+.btn-icon {
+  width: 45px;
+  height: 100%;
+  border-radius: 0 12px 12px 0;
+}
+.btn-icon.btn-absolute {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.btn-icon.icon-search {
+  background: #82a6ff url("../images/search3.svg") no-repeat center;
+  background-size: 20px;
+}
+
+.btn-icon-2 {
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  margin: 0 0 0 20px;
+}
+
+.btn-icon-2.icon-repeat {
+  background: #fff url("../images/history.svg") no-repeat center;
+  background-size: 25px;
+}
+.btn-icon-2.icon-endGame {
+  background: #fff url("../images/close-1.svg") no-repeat center;
+  background-size: 25px;
+}

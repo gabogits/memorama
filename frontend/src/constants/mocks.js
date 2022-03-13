@@ -1,0 +1,191 @@
+export const arrayImages = [
+  {
+    parid: "2JcixB1Ky3I",
+    url: "https://images.unsplash.com/photo-1570824104453-508955ab713e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHwxfHxjYXRzfGVufDB8MHwxfHwxNjQzODI1MDE0&ixlib=rb-1.2.1&q=80&w=400",
+  },
+  {
+    parid: "46TvM-BVrRI",
+    url: "https://images.unsplash.com/photo-1589883661923-6476cb0ae9f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHwyfHxjYXRzfGVufDB8MHwxfHwxNjQzODI1MDE0&ixlib=rb-1.2.1&q=80&w=400",
+  },
+  {
+    parid: "YCPkW_r_6uA",
+    url: "https://images.unsplash.com/photo-1517331156700-3c241d2b4d83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHwzfHxjYXRzfGVufDB8MHwxfHwxNjQzODI1MDE0&ixlib=rb-1.2.1&q=80&w=400",
+  },
+  {
+    parid: "mBRfYA0dYYE",
+    url: "https://images.unsplash.com/photo-1583795128727-6ec3642408f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHw0fHxjYXRzfGVufDB8MHwxfHwxNjQzODI1MDE0&ixlib=rb-1.2.1&q=80&w=400",
+  },
+  {
+    parid: "uy5t-CJuIK4",
+    url: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHw1fHxjYXRzfGVufDB8MHwxfHwxNjQzODI1MDE0&ixlib=rb-1.2.1&q=80&w=400",
+  },
+  {
+    parid: "FbhNdD1ow2g",
+    url: "https://images.unsplash.com/photo-1557246565-8a3d3ab5d7f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHw2fHxjYXRzfGVufDB8MHwxfHwxNjQzODI1MDE0&ixlib=rb-1.2.1&q=80&w=400",
+  },
+  {
+    parid: "MNju0A6EeE0",
+    url: "https://images.unsplash.com/photo-1559235038-1b0fadf76f78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHw3fHxjYXRzfGVufDB8MHwxfHwxNjQzODI1MDE0&ixlib=rb-1.2.1&q=80&w=400",
+  },
+  {
+    parid: "gSSK4u8yPpM",
+    url: "https://images.unsplash.com/photo-1568043210943-0e8aac4b9734?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHw4fHxjYXRzfGVufDB8MHwxfHwxNjQzODI1MDE0&ixlib=rb-1.2.1&q=80&w=400",
+  },
+  {
+    parid: "qs4j-39TaBQ",
+    url: "https://images.unsplash.com/photo-1595511890410-3b8dc237a537?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHw5fHxjYXRzfGVufDB8MHwxfHwxNjQzODI1MDE0&ixlib=rb-1.2.1&q=80&w=400",
+  },
+  {
+    parid: "21NRDbMJF94",
+    url: "https://images.unsplash.com/photo-1574063413132-354db9f190fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHwxMHx8Y2F0c3xlbnwwfDB8MXx8MTY0MzgyNTAxNA&ixlib=rb-1.2.1&q=80&w=400",
+  },
+];
+export const mockGameCards = [
+  {
+    parid: "gSSK4u8yPpM",
+    url: "https://images.unsplash.com/photo-1568043210943-0e8aac4b9734?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHw4fHxjYXRzfGVufDB8MHwxfHwxNjQzODI1MDE0&ixlib=rb-1.2.1&q=80&w=400",
+    nanoId: "UanozUmNaQ",
+    flipped: false,
+    active: true,
+  },
+  {
+    parid: "2JcixB1Ky3I",
+    url: "https://images.unsplash.com/photo-1570824104453-508955ab713e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHwxfHxjYXRzfGVufDB8MHwxfHwxNjQzODI1MDE0&ixlib=rb-1.2.1&q=80&w=400",
+    nanoId: "HSmfLRJf4b",
+    flipped: false,
+    active: true,
+  },
+  {
+    parid: "uy5t-CJuIK4",
+    url: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHw1fHxjYXRzfGVufDB8MHwxfHwxNjQzODI1MDE0&ixlib=rb-1.2.1&q=80&w=400",
+    nanoId: "feRFoRKQ6Z",
+    flipped: false,
+    active: true,
+  },
+  {
+    parid: "mBRfYA0dYYE",
+    url: "https://images.unsplash.com/photo-1583795128727-6ec3642408f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHw0fHxjYXRzfGVufDB8MHwxfHwxNjQzODI1MDE0&ixlib=rb-1.2.1&q=80&w=400",
+    nanoId: "R6-xYjqtkH",
+    flipped: false,
+    active: true,
+  },
+  {
+    parid: "FbhNdD1ow2g",
+    url: "https://images.unsplash.com/photo-1557246565-8a3d3ab5d7f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHw2fHxjYXRzfGVufDB8MHwxfHwxNjQzODI1MDE0&ixlib=rb-1.2.1&q=80&w=400",
+    nanoId: "9F7o3fBP29",
+    flipped: false,
+    active: true,
+  },
+  {
+    parid: "MNju0A6EeE0",
+    url: "https://images.unsplash.com/photo-1559235038-1b0fadf76f78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHw3fHxjYXRzfGVufDB8MHwxfHwxNjQzODI1MDE0&ixlib=rb-1.2.1&q=80&w=400",
+    nanoId: "F6jx1v-Vyd",
+    flipped: false,
+    active: true,
+  },
+  {
+    parid: "gSSK4u8yPpM",
+    url: "https://images.unsplash.com/photo-1568043210943-0e8aac4b9734?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHw4fHxjYXRzfGVufDB8MHwxfHwxNjQzODI1MDE0&ixlib=rb-1.2.1&q=80&w=400",
+    nanoId: "oLzJktU-Az",
+    flipped: false,
+    active: true,
+  },
+  {
+    parid: "FbhNdD1ow2g",
+    url: "https://images.unsplash.com/photo-1557246565-8a3d3ab5d7f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHw2fHxjYXRzfGVufDB8MHwxfHwxNjQzODI1MDE0&ixlib=rb-1.2.1&q=80&w=400",
+    nanoId: "P9hCUD77_p",
+    flipped: false,
+    active: true,
+  },
+  {
+    parid: "YCPkW_r_6uA",
+    url: "https://images.unsplash.com/photo-1517331156700-3c241d2b4d83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHwzfHxjYXRzfGVufDB8MHwxfHwxNjQzODI1MDE0&ixlib=rb-1.2.1&q=80&w=400",
+    nanoId: "MUa5PByAj8",
+    flipped: false,
+    active: true,
+  },
+  {
+    parid: "YCPkW_r_6uA",
+    url: "https://images.unsplash.com/photo-1517331156700-3c241d2b4d83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHwzfHxjYXRzfGVufDB8MHwxfHwxNjQzODI1MDE0&ixlib=rb-1.2.1&q=80&w=400",
+    nanoId: "1zTBC5WcO-",
+    flipped: false,
+    active: true,
+  },
+  {
+    parid: "mBRfYA0dYYE",
+    url: "https://images.unsplash.com/photo-1583795128727-6ec3642408f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHw0fHxjYXRzfGVufDB8MHwxfHwxNjQzODI1MDE0&ixlib=rb-1.2.1&q=80&w=400",
+    nanoId: "agIioCJ5_t",
+    flipped: false,
+    active: true,
+  },
+  {
+    parid: "uy5t-CJuIK4",
+    url: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHw1fHxjYXRzfGVufDB8MHwxfHwxNjQzODI1MDE0&ixlib=rb-1.2.1&q=80&w=400",
+    nanoId: "V02rFiPXi_",
+    flipped: false,
+    active: true,
+  },
+  {
+    parid: "21NRDbMJF94",
+    url: "https://images.unsplash.com/photo-1574063413132-354db9f190fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHwxMHx8Y2F0c3xlbnwwfDB8MXx8MTY0MzgyNTAxNA&ixlib=rb-1.2.1&q=80&w=400",
+    nanoId: "4qzwACkR6F",
+    flipped: false,
+    active: true,
+  },
+  {
+    parid: "qs4j-39TaBQ",
+    url: "https://images.unsplash.com/photo-1595511890410-3b8dc237a537?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHw5fHxjYXRzfGVufDB8MHwxfHwxNjQzODI1MDE0&ixlib=rb-1.2.1&q=80&w=400",
+    nanoId: "lWOOBcAgTf",
+    flipped: false,
+    active: true,
+  },
+  {
+    parid: "MNju0A6EeE0",
+    url: "https://images.unsplash.com/photo-1559235038-1b0fadf76f78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHw3fHxjYXRzfGVufDB8MHwxfHwxNjQzODI1MDE0&ixlib=rb-1.2.1&q=80&w=400",
+    nanoId: "vJG_OfRr0p",
+    flipped: false,
+    active: true,
+  },
+  {
+    parid: "46TvM-BVrRI",
+    url: "https://images.unsplash.com/photo-1589883661923-6476cb0ae9f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHwyfHxjYXRzfGVufDB8MHwxfHwxNjQzODI1MDE0&ixlib=rb-1.2.1&q=80&w=400",
+    nanoId: "70ZYeFj5sc",
+    flipped: false,
+    active: true,
+  },
+  {
+    parid: "46TvM-BVrRI",
+    url: "https://images.unsplash.com/photo-1589883661923-6476cb0ae9f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHwyfHxjYXRzfGVufDB8MHwxfHwxNjQzODI1MDE0&ixlib=rb-1.2.1&q=80&w=400",
+    nanoId: "HTbumxhoHL",
+    flipped: false,
+    active: true,
+  },
+  {
+    parid: "21NRDbMJF94",
+    url: "https://images.unsplash.com/photo-1574063413132-354db9f190fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHwxMHx8Y2F0c3xlbnwwfDB8MXx8MTY0MzgyNTAxNA&ixlib=rb-1.2.1&q=80&w=400",
+    nanoId: "sD2Y-y1-jT",
+    flipped: false,
+    active: true,
+  },
+  {
+    parid: "2JcixB1Ky3I",
+    url: "https://images.unsplash.com/photo-1570824104453-508955ab713e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHwxfHxjYXRzfGVufDB8MHwxfHwxNjQzODI1MDE0&ixlib=rb-1.2.1&q=80&w=400",
+    nanoId: "fctB2ZTC44",
+    flipped: false,
+    active: true,
+  },
+  {
+    parid: "qs4j-39TaBQ",
+    url: "https://images.unsplash.com/photo-1595511890410-3b8dc237a537?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDM2Nzh8MHwxfHNlYXJjaHw5fHxjYXRzfGVufDB8MHwxfHwxNjQzODI1MDE0&ixlib=rb-1.2.1&q=80&w=400",
+    nanoId: "krA7fPHREn",
+    flipped: false,
+    active: true,
+  },
+];
+export const players = {
+  numberPlayers: 2,
+  dataPlayers: [
+    { avatar: "witch", id: 1, name: "juan" },
+    { avatar: "dracula", id: 2, name: "bety" },
+  ],
+};

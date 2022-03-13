@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <App /> Debe de mostar la routa / al inicio de la aplicacion 1`] = `
+<main>
+  <header>
+    <div
+      className=" container container-header"
+    >
+      <div
+        className="logo"
+      >
+        <figure>
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            <span
+              className="logo-desk"
+            >
+              MEMORAMA
+            </span>
+            <span
+              className="logo-mobile"
+            >
+              M
+            </span>
+             
+          </a>
+        </figure>
+      </div>
+      <nav>
+        <div
+          className="nav-left"
+        />
+        <div
+          className="nav-right"
+        >
+          <div
+            className="nav-list"
+          >
+            <ul>
+              <li>
+                <button
+                  onClick={[Function]}
+                >
+                  Inicio
+                </button>
+              </li>
+              <li>
+                <a
+                  aria-current={null}
+                  href="/ranking"
+                  onClick={[Function]}
+                >
+                  Ranking
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <section
+    className="form top-bottom-space"
+  >
+    <div
+      className="container"
+    >
+      <section
+        className="section-format col"
+      >
+        <div
+          className="field"
+        >
+          <label>
+            Elige el número de Jugadores 
+          </label>
+          <div
+            className="buttons-row"
+          >
+            <button
+              className="btn-primary   btn-size-2  btn-color-1 "
+              key="1"
+              name="numberPlayers"
+              onClick={[Function]}
+            >
+              Un jugador
+            </button>
+            <button
+              className="btn-primary   btn-size-2  btn-color-1 "
+              key="2"
+              name="numberPlayers"
+              onClick={[Function]}
+            >
+              Dos jugadores
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+</main>
+`;

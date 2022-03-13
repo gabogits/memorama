@@ -1,0 +1,7 @@
+export const types = {
+  LOGIN: "LOGIN",
+  LOGOUT: "LOGOUT",
+  SET_CARDS_GAME: "SET_CARDS_GAME",
+  RESET_CATEGORY: "RESET_CATEGORY",
+  RESET: "RESET",
+};

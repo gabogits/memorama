@@ -1,0 +1,495 @@
+html,
+body {
+  position: relative;
+  box-sizing: border-box;
+  min-height: 100%;
+  height: 100%;
+  background-color: #f8faff;
+}
+body > div {
+  min-height: 100%;
+  height: 100%;
+}
+
+main {
+  position: relative;
+  min-height: 100%;
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  border-bottom: solid 1px #bbceff;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.special-pad {
+  padding-bottom: 80px;
+}
+.container-visible {
+  overflow: visible;
+}
+.container-header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: block;
+  margin: 6px 0 0;
+}
+
+.logo figure {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.logo a .logo-desk {
+  font-size: 20px;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.logo a {
+  color: #3465df;
+}
+
+.logo-mobile {
+  display: none;
+  font-size: 24px;
+  line-height: 41px;
+  text-transform: uppercase;
+  font-weight: 500;
+  background: #003764;
+  color: #fff;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+}
+nav {
+  justify-content: space-between;
+  display: flex;
+}
+nav .nav-list ul {
+  display: flex;
+}
+nav .nav-list ul li {
+  display: inline-block;
+  margin: 0 0 0 45px;
+}
+
+nav .nav-list ul li a,
+nav .nav-list ul li button {
+  color: #6e6e6e;
+  font-size: 16px;
+  display: block;
+  height: 60px;
+  line-height: 44px;
+  background: none;
+  padding: 0;
+  line-height: 60px;
+  font-weight: 600;
+}
+nav .nav-list ul li a.active {
+  color: #000;
+}
+.nav-icons {
+  display: none;
+}
+
+.nav-icons ul {
+  display: flex;
+}
+
+.nav-icons ul li:last-of-type {
+  margin: 0;
+}
+.nav-icons ul li figure {
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  border-radius: 100px;
+  margin: 12px 0 0 10px;
+  border: solid 2px #003764;
+}
+.nav-icons ul li figure {
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  border-radius: 100px;
+  margin: 12px 0 0 10px;
+  border: solid 2px #003764;
+}
+.nav-icons ul li figure img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+.box-title {
+  margin: 0 0 40px;
+}
+
+.box-title h2 {
+  font-size: 30px;
+  line-height: 35px;
+  color: #134c85;
+}
+
+.box-title.box-center {
+  text-align: center;
+}
+
+.content-center {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.screen {
+  left: 0;
+  top: 0;
+  background: #000;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: none;
+  opacity: 0.6;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.screen.shadow {
+  display: block;
+}
+
+.section-format {
+  max-width: 550px;
+  margin: 20px auto 0px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: -1px 5px 11px 3px #d7e9fb;
+  background: #fff;
+}
+
+.section-format.col h3 {
+  font-size: 18px;
+  margin: 0 0 10px;
+  color: #3465df;
+}
+
+.top-bottom-space {
+  padding: 62px 0 50px;
+  overflow: hidden;
+}
+.top-bottom-space .container {
+  padding: 0 0 30px;
+}
+
+.block-icon {
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin: 0 20px 0 0;
+}
+
+.block-icon img {
+  width: 100%;
+  height: auto;
+}
+
+.ranking-container {
+  margin: 80px auto 0;
+  max-width: 500px;
+  box-shadow: -1px 5px 11px 3px #d7e9fb;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.left-content {
+  display: flex;
+}
+.right-content {
+  display: flex;
+  align-items: center;
+}
+.list-block:last-of-type .list-item {
+  border: none;
+}
+.list-item .right-content h3 {
+  margin: 0;
+  color: #3465df;
+}
+.list-item {
+  display: flex;
+  background: #fff;
+  padding: 15px;
+  border-bottom: 1px solid #bbceff;
+  justify-content: space-between;
+}
+
+.text-block h4 {
+  font-size: 15px;
+}
+
+.text-block p {
+  color: #999;
+}
+
+.right-content h3 {
+  font-size: 18px;
+  margin: 0 0 6px;
+  text-align: right;
+}
+
+.cards-list {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.flip-card {
+  width: 91%;
+  height: 160px;
+  perspective: 1000px;
+  margin: 0 0 20px;
+  transition: 0.8s;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -ms-transition: 0.8s;
+  -o-transition: 0.8s;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.flip-card.disabled {
+  opacity: 0;
+}
+
+.flip-card-inner {
+  background-color: #bbb;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card.flipped .flip-card-inner {
+  transform: rotateY(180deg);
+
+  background-color: transparent;
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #8dadff;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+.flip-card-back img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.modal-box {
+  background: #fff;
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 20vh;
+  margin: 0 auto;
+  border-radius: 12px;
+
+  display: none;
+  z-index: 3;
+}
+.head-modal {
+  border-bottom: solid 1px #e8e8e8;
+}
+
+.head-modal h2 {
+  padding: 15px 20px;
+  font-size: 16px;
+}
+.large-size {
+  max-width: 990px;
+}
+.small-size {
+  max-width: 312px;
+}
+.medium-size {
+  max-width: 450px;
+}
+.modal-box.active {
+  display: block;
+}
+.modal-box-inner p {
+  margin: 0 0 20px;
+  text-align: center;
+  font-size: 14px;
+}
+.modal-box-inner {
+  padding: 25px 20px;
+}
+.modal-box-inner .new-content-actions {
+  float: none;
+  margin: 0 auto;
+  width: auto;
+}
+.btns-block4 {
+  justify-content: space-between;
+  display: flex;
+}
+
+.lds-ring {
+  margin: 40px auto;
+  width: 40px;
+  height: 40px;
+
+  position: relative;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  margin: 4px;
+  border: 4px solid #82a6ff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #82a6ff transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.avatars-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.avatar-box {
+  width: 70px;
+}
+
+.avatar-box.selected {
+  border: #e3045e solid 3px;
+  overflow: hidden;
+  border-radius: 50px;
+}
+.avatar-box img {
+  width: 100%;
+  height: auto;
+}
+
+.header-game {
+  position: fixed;
+  background: #ecf1fd;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+  top: 60px;
+}
+.cards-board {
+  max-width: 1150px;
+  margin: 140px auto 0;
+}
+.header-game-container {
+  max-width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  padding: 7px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-gamedata {
+  display: flex;
+}
+.header-gamedata-item {
+  display: flex;
+  margin: 0 20px 0 0;
+}
+.header-gamedata-data {
+  display: flex;
+  align-items: center;
+}
+.header-gamedata-data strong {
+  margin: 0 0 0 10px;
+}
+.header-gamedata-data strong.score-modal {
+  margin: 0 0 0 9px;
+  font-size: 20px;
+}
+.header-gamedata-avatar {
+  width: 50px;
+  margin: 0 10px 0 0;
+}
+.header-gamedata-avatar img {
+  width: 100%;
+  height: auto;
+}
+
+.header-gamedata-avatar.active {
+  border: solid 2px #ec3881;
+
+  border-radius: 50px;
+  box-shadow: 0px 2px 7px 0px #ffa6ca;
+}
+.timer-buttons {
+  display: flex;
+  align-items: center;
+}
+.timer-container {
+  font-size: 25px;
+  background: #f8faff;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  height: 42px;
+  border-radius: 20px;
+}
+.center-jus {
+  justify-content: center;
+}
+.options-aftergame {
+  display: flex;
+  max-width: 500px;
+  margin: 200px auto 0;
+}

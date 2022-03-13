@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <Layout /> Debe de mostarrse correctamente el component en el layout 1`] = `
+<main>
+  <header>
+    <div
+      className=" container container-header"
+    >
+      <div
+        className="logo"
+      >
+        <figure>
+          <a
+            onClick={[Function]}
+          >
+            <span
+              className="logo-desk"
+            >
+              MEMORAMA
+            </span>
+            <span
+              className="logo-mobile"
+            >
+              M
+            </span>
+             
+          </a>
+        </figure>
+      </div>
+      <nav>
+        <div
+          className="nav-left"
+        />
+        <div
+          className="nav-right"
+        >
+          <div
+            className="nav-list"
+          >
+            <ul>
+              <li>
+                <button
+                  onClick={[Function]}
+                >
+                  Inicio
+                </button>
+              </li>
+              <li>
+                <a
+                  aria-current={null}
+                  onClick={[Function]}
+                >
+                  Tema
+                </a>
+              </li>
+              <li>
+                <a
+                  aria-current={null}
+                  onClick={[Function]}
+                >
+                  Juego
+                </a>
+              </li>
+              <li>
+                <a
+                  aria-current={null}
+                  onClick={[Function]}
+                >
+                  Ranking
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div
+    className="contenido"
+  >
+    Hola soy contenido
+  </div>
+</main>
+`;
